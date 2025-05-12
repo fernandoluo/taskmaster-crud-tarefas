@@ -1,9 +1,3 @@
-<?php
-$host = 'localhost';
-$dbname = 'taskmaster';
-$username = 'root';
-$password = '';
-
 // Conexão com o banco de dados
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
